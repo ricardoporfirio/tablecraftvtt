@@ -1,0 +1,12 @@
+{
+  "name": "tablecraftvtt",
+  "version": "0.0.1",
+  "description": "A open source virtual tabletop for tabletop roleplaying games.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ricardo Tristão Porfirio <rtristaoporfirio@gmail.com>",
+  "license": "ISC"
+}
