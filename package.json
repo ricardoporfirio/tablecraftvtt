@@ -4,7 +4,8 @@
   "description": "A open source virtual tabletop for tabletop roleplaying games.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "Ricardo Tristão Porfirio <rtristaoporfirio@gmail.com>",
@@ -16,6 +17,10 @@
   },
   "devDependencies": {
     "eslint": "^8.34.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
     "nodemon": "^2.0.20"
   }
 }
