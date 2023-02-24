@@ -13,6 +13,17 @@
 
   <div>
     <form action="/game" method="post">
+      <div class="rooms">
+        <label for="room">Room</label>
+        <select name="room" id="room">
+          <!-- get a room from controller -->
+          <% for (let i=0; i < rooms.length; i++) { %>
+            <option value="<%= rooms[i] %>">
+              <%= rooms[i] %>
+            </option>
+            <% } %>
+        </select>
+      </div>
       <div class="user">
         <label for="username">Username</label>
         <input type="text" name="username" id="username">
